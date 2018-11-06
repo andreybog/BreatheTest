@@ -14,8 +14,23 @@ internal enum L10n {
 
   internal enum BreatheExercise {
     internal enum Button {
-      /// TAP TO START
+      /// TAP HERE TO BREATHE
       internal static let start = L10n.tr("Localizable", "breathe_exercise.button.start")
+    }
+    internal enum Label {
+      /// Remaining
+      internal static let remainingTime = L10n.tr("Localizable", "breathe_exercise.label.remaining_time")
+    }
+  }
+
+  internal enum BreathePhase {
+    internal enum Kind {
+      /// EXHALE
+      internal static let exhale = L10n.tr("Localizable", "breathe_phase.kind.exhale")
+      /// HOLD
+      internal static let hold = L10n.tr("Localizable", "breathe_phase.kind.hold")
+      /// INHALE
+      internal static let inhale = L10n.tr("Localizable", "breathe_phase.kind.inhale")
     }
   }
 }

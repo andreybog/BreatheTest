@@ -9,12 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    let service: BreathePhasesService = BundleBreathePhasesService()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        setup()
     }
 
-
+    private func setup() {
+        service.breathePhases()
+            .addSuccess { phases in
+                print(phases)
+            }
+            .addFailure { error in
+                print(error.localizedDescription)
+            }
+    }
 }
 
