@@ -1,0 +1,6 @@
+input_dir: BreatheTest/Resources/Strings
+output_dir: BreatheTest/Generated/
+strings:
+  paths: en.lproj/Localizable.strings
+  templateName: structured-swift4
+  output: Localization.swift

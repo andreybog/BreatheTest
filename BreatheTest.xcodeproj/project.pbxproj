@@ -12,6 +12,8 @@
 		556967732191698C00411AAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556967712191698C00411AAD /* Main.storyboard */; };
 		556967752191698E00411AAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556967742191698E00411AAD /* Assets.xcassets */; };
 		556967782191698E00411AAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556967762191698E00411AAD /* LaunchScreen.storyboard */; };
+		5569678521916AD400411AAD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5569678721916AD400411AAD /* Localizable.strings */; };
+		5569678921916C3B00411AAD /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5569678821916C3B00411AAD /* Localization.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		556967742191698E00411AAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		556967772191698E00411AAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		556967792191698E00411AAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5569678621916AD400411AAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5569678821916C3B00411AAD /* Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,40 @@
 		5569676C2191698C00411AAD /* BreatheTest */ = {
 			isa = PBXGroup;
 			children = (
+				5569678021916A9400411AAD /* Generated */,
 				5569676D2191698C00411AAD /* AppDelegate.swift */,
 				5569676F2191698C00411AAD /* ViewController.swift */,
 				556967712191698C00411AAD /* Main.storyboard */,
 				556967742191698E00411AAD /* Assets.xcassets */,
 				556967762191698E00411AAD /* LaunchScreen.storyboard */,
 				556967792191698E00411AAD /* Info.plist */,
+				5569678121916AA500411AAD /* Resources */,
 			);
 			path = BreatheTest;
+			sourceTree = "<group>";
+		};
+		5569678021916A9400411AAD /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				5569678821916C3B00411AAD /* Localization.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		5569678121916AA500411AAD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5569678221916AB000411AAD /* Strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5569678221916AB000411AAD /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				5569678721916AD400411AAD /* Localizable.strings */,
+			);
+			path = Strings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				556967782191698E00411AAD /* LaunchScreen.storyboard in Resources */,
+				5569678521916AD400411AAD /* Localizable.strings in Resources */,
 				556967752191698E00411AAD /* Assets.xcassets in Resources */,
 				556967732191698C00411AAD /* Main.storyboard in Resources */,
 			);
@@ -137,6 +168,7 @@
 			files = (
 				556967702191698C00411AAD /* ViewController.swift in Sources */,
 				5569676E2191698C00411AAD /* AppDelegate.swift in Sources */,
+				5569678921916C3B00411AAD /* Localization.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +189,14 @@
 				556967772191698E00411AAD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5569678721916AD400411AAD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5569678621916AD400411AAD /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
