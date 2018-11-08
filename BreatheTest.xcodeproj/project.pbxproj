@@ -14,9 +14,12 @@
 		554217EC21924F8D00285BCF /* Codable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554217EB21924F8D00285BCF /* Codable+Extensions.swift */; };
 		554217EE2192541800285BCF /* BundleBreathePhasesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554217ED2192541800285BCF /* BundleBreathePhasesService.swift */; };
 		554217F12192551B00285BCF /* breathe_phases.json in Resources */ = {isa = PBXBuildFile; fileRef = 554217F02192551A00285BCF /* breathe_phases.json */; };
+		554218042194D5FD00285BCF /* BreatheExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554218032194D5FD00285BCF /* BreatheExerciseViewController.swift */; };
+		554218072194D8CB00285BCF /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554218062194D8CB00285BCF /* Presenter.swift */; };
+		554218092194DC1E00285BCF /* BreatheExercisePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554218082194DC1E00285BCF /* BreatheExercisePresenter.swift */; };
+		5542180B2194EAE100285BCF /* BreatheExerciseAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5542180A2194EAE100285BCF /* BreatheExerciseAssembly.swift */; };
 		5569676E2191698C00411AAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5569676D2191698C00411AAD /* AppDelegate.swift */; };
 		556967702191698C00411AAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5569676F2191698C00411AAD /* ViewController.swift */; };
-		556967732191698C00411AAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556967712191698C00411AAD /* Main.storyboard */; };
 		556967752191698E00411AAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556967742191698E00411AAD /* Assets.xcassets */; };
 		556967782191698E00411AAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556967762191698E00411AAD /* LaunchScreen.storyboard */; };
 		5569678521916AD400411AAD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5569678721916AD400411AAD /* Localizable.strings */; };
@@ -34,10 +37,13 @@
 		554217EB21924F8D00285BCF /* Codable+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Codable+Extensions.swift"; sourceTree = "<group>"; };
 		554217ED2192541800285BCF /* BundleBreathePhasesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleBreathePhasesService.swift; sourceTree = "<group>"; };
 		554217F02192551A00285BCF /* breathe_phases.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = breathe_phases.json; sourceTree = "<group>"; };
+		554218032194D5FD00285BCF /* BreatheExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheExerciseViewController.swift; sourceTree = "<group>"; };
+		554218062194D8CB00285BCF /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		554218082194DC1E00285BCF /* BreatheExercisePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheExercisePresenter.swift; sourceTree = "<group>"; };
+		5542180A2194EAE100285BCF /* BreatheExerciseAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheExerciseAssembly.swift; sourceTree = "<group>"; };
 		5569676A2191698C00411AAD /* BreatheTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreatheTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5569676D2191698C00411AAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5569676F2191698C00411AAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		556967722191698C00411AAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		556967742191698E00411AAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		556967772191698E00411AAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		556967792191698E00411AAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,6 +83,32 @@
 			path = Mocks;
 			sourceTree = "<group>";
 		};
+		554218012194D45500285BCF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				556967932191731800411AAD /* UIColor+Extensions.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		554218022194D4AA00285BCF /* BreatheExercise */ = {
+			isa = PBXGroup;
+			children = (
+				554218032194D5FD00285BCF /* BreatheExerciseViewController.swift */,
+				554218082194DC1E00285BCF /* BreatheExercisePresenter.swift */,
+				5542180A2194EAE100285BCF /* BreatheExerciseAssembly.swift */,
+			);
+			path = BreatheExercise;
+			sourceTree = "<group>";
+		};
+		554218052194D8BD00285BCF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				554218062194D8CB00285BCF /* Presenter.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		556967612191698C00411AAD = {
 			isa = PBXGroup;
 			children = (
@@ -102,7 +134,6 @@
 				556967902191724F00411AAD /* Utils */,
 				5569676D2191698C00411AAD /* AppDelegate.swift */,
 				5569676F2191698C00411AAD /* ViewController.swift */,
-				556967712191698C00411AAD /* Main.storyboard */,
 				556967742191698E00411AAD /* Assets.xcassets */,
 				556967762191698E00411AAD /* LaunchScreen.storyboard */,
 				556967792191698E00411AAD /* Info.plist */,
@@ -147,6 +178,8 @@
 		5569678C21916DB400411AAD /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				554218052194D8BD00285BCF /* Common */,
+				554218022194D4AA00285BCF /* BreatheExercise */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -165,7 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				554217E021924DBC00285BCF /* AsyncTask */,
-				556967932191731800411AAD /* UIColor+Extensions.swift */,
+				554218012194D45500285BCF /* UI */,
 				554217E921924EB600285BCF /* NSLocking+Extensions.swift */,
 				554217EB21924F8D00285BCF /* Codable+Extensions.swift */,
 			);
@@ -234,7 +267,6 @@
 				5569678521916AD400411AAD /* Localizable.strings in Resources */,
 				554217F12192551B00285BCF /* breathe_phases.json in Resources */,
 				556967752191698E00411AAD /* Assets.xcassets in Resources */,
-				556967732191698C00411AAD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,9 +285,13 @@
 				5569676E2191698C00411AAD /* AppDelegate.swift in Sources */,
 				554217EE2192541800285BCF /* BundleBreathePhasesService.swift in Sources */,
 				556967922191727500411AAD /* BreathePhase.swift in Sources */,
+				554218072194D8CB00285BCF /* Presenter.swift in Sources */,
 				554217E821924E5C00285BCF /* SafeBox.swift in Sources */,
 				554217E221924DEE00285BCF /* AsyncTask.swift in Sources */,
+				5542180B2194EAE100285BCF /* BreatheExerciseAssembly.swift in Sources */,
+				554218042194D5FD00285BCF /* BreatheExerciseViewController.swift in Sources */,
 				5569678921916C3B00411AAD /* Localization.swift in Sources */,
+				554218092194DC1E00285BCF /* BreatheExercisePresenter.swift in Sources */,
 				554217EC21924F8D00285BCF /* Codable+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,14 +299,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		556967712191698C00411AAD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				556967722191698C00411AAD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		556967762191698E00411AAD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -420,7 +448,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = abdev.BreatheTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -438,7 +466,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = abdev.BreatheTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

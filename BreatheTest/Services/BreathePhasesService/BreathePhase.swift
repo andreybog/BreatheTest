@@ -8,11 +8,21 @@
 
 import UIKit
 
+private typealias Label = L10n.BreathePhase.Kind
+
 struct BreathePhase {
     enum Kind: String, Decodable {
         case inhale
         case exhale
         case hold
+        
+        var description: String {
+            switch self {
+            case .inhale: return Label.inhale
+            case .exhale: return Label.exhale
+            case .hold: return Label.hold
+            }
+        }
     }
     
     let kind: Kind
