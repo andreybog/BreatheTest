@@ -18,8 +18,8 @@
 		554218072194D8CB00285BCF /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554218062194D8CB00285BCF /* Presenter.swift */; };
 		554218092194DC1E00285BCF /* BreatheExercisePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554218082194DC1E00285BCF /* BreatheExercisePresenter.swift */; };
 		5542180B2194EAE100285BCF /* BreatheExerciseAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5542180A2194EAE100285BCF /* BreatheExerciseAssembly.swift */; };
+		5542180D2194F01C00285BCF /* UIView+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5542180C2194F01C00285BCF /* UIView+Factory.swift */; };
 		5569676E2191698C00411AAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5569676D2191698C00411AAD /* AppDelegate.swift */; };
-		556967702191698C00411AAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5569676F2191698C00411AAD /* ViewController.swift */; };
 		556967752191698E00411AAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556967742191698E00411AAD /* Assets.xcassets */; };
 		556967782191698E00411AAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556967762191698E00411AAD /* LaunchScreen.storyboard */; };
 		5569678521916AD400411AAD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5569678721916AD400411AAD /* Localizable.strings */; };
@@ -27,6 +27,8 @@
 		5569678F21916E6600411AAD /* BreathePhasesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5569678E21916E6600411AAD /* BreathePhasesService.swift */; };
 		556967922191727500411AAD /* BreathePhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556967912191727500411AAD /* BreathePhase.swift */; };
 		556967942191731800411AAD /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556967932191731800411AAD /* UIColor+Extensions.swift */; };
+		558A29A02194F8B30059BF8E /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A299F2194F8B30059BF8E /* Layout.swift */; };
+		558A29A32194FD240059BF8E /* TimerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A29A22194FD240059BF8E /* TimerLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,9 +43,9 @@
 		554218062194D8CB00285BCF /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		554218082194DC1E00285BCF /* BreatheExercisePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheExercisePresenter.swift; sourceTree = "<group>"; };
 		5542180A2194EAE100285BCF /* BreatheExerciseAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheExerciseAssembly.swift; sourceTree = "<group>"; };
+		5542180C2194F01C00285BCF /* UIView+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Factory.swift"; sourceTree = "<group>"; };
 		5569676A2191698C00411AAD /* BreatheTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreatheTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5569676D2191698C00411AAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5569676F2191698C00411AAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		556967742191698E00411AAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		556967772191698E00411AAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		556967792191698E00411AAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,6 +54,8 @@
 		5569678E21916E6600411AAD /* BreathePhasesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathePhasesService.swift; sourceTree = "<group>"; };
 		556967912191727500411AAD /* BreathePhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathePhase.swift; sourceTree = "<group>"; };
 		556967932191731800411AAD /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		558A299F2194F8B30059BF8E /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+		558A29A22194FD240059BF8E /* TimerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				556967932191731800411AAD /* UIColor+Extensions.swift */,
+				5542180C2194F01C00285BCF /* UIView+Factory.swift */,
+				558A299F2194F8B30059BF8E /* Layout.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -132,8 +138,8 @@
 				5569678B21916DA500411AAD /* Services */,
 				5569678C21916DB400411AAD /* Screens */,
 				556967902191724F00411AAD /* Utils */,
+				558A29A12194FCC00059BF8E /* Views */,
 				5569676D2191698C00411AAD /* AppDelegate.swift */,
-				5569676F2191698C00411AAD /* ViewController.swift */,
 				556967742191698E00411AAD /* Assets.xcassets */,
 				556967762191698E00411AAD /* LaunchScreen.storyboard */,
 				556967792191698E00411AAD /* Info.plist */,
@@ -203,6 +209,14 @@
 				554217EB21924F8D00285BCF /* Codable+Extensions.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		558A29A12194FCC00059BF8E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				558A29A22194FD240059BF8E /* TimerLabel.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,10 +291,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				556967702191698C00411AAD /* ViewController.swift in Sources */,
 				556967942191731800411AAD /* UIColor+Extensions.swift in Sources */,
+				558A29A32194FD240059BF8E /* TimerLabel.swift in Sources */,
 				554217E621924E3300285BCF /* Cancellable.swift in Sources */,
 				5569678F21916E6600411AAD /* BreathePhasesService.swift in Sources */,
+				5542180D2194F01C00285BCF /* UIView+Factory.swift in Sources */,
+				558A29A02194F8B30059BF8E /* Layout.swift in Sources */,
 				554217EA21924EB600285BCF /* NSLocking+Extensions.swift in Sources */,
 				5569676E2191698C00411AAD /* AppDelegate.swift in Sources */,
 				554217EE2192541800285BCF /* BundleBreathePhasesService.swift in Sources */,
