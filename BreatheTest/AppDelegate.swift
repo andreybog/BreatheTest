@@ -15,7 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        enterApp()
         return true
     }
 
@@ -41,6 +42,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    
+    private func enterApp() {
+        let vc = BreatheExerciseAssembly.breatheExercise()
 
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window!.rootViewController = vc
+        window?.makeKeyAndVisible()
+    }
 }
 

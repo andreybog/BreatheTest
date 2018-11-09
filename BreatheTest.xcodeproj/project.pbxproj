@@ -7,21 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		554217E221924DEE00285BCF /* AsyncTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554217E121924DEE00285BCF /* AsyncTask.swift */; };
+		554217E621924E3300285BCF /* Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554217E521924E3300285BCF /* Cancellable.swift */; };
+		554217E821924E5C00285BCF /* SafeBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554217E721924E5C00285BCF /* SafeBox.swift */; };
+		554217EA21924EB600285BCF /* NSLocking+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554217E921924EB600285BCF /* NSLocking+Extensions.swift */; };
+		554217EC21924F8D00285BCF /* Codable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554217EB21924F8D00285BCF /* Codable+Extensions.swift */; };
+		554217EE2192541800285BCF /* BundleBreathePhasesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554217ED2192541800285BCF /* BundleBreathePhasesService.swift */; };
+		554217F12192551B00285BCF /* breathe_phases.json in Resources */ = {isa = PBXBuildFile; fileRef = 554217F02192551A00285BCF /* breathe_phases.json */; };
+		554218042194D5FD00285BCF /* BreatheExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554218032194D5FD00285BCF /* BreatheExerciseViewController.swift */; };
+		554218072194D8CB00285BCF /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554218062194D8CB00285BCF /* Presenter.swift */; };
+		554218092194DC1E00285BCF /* BreatheExercisePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554218082194DC1E00285BCF /* BreatheExercisePresenter.swift */; };
+		5542180B2194EAE100285BCF /* BreatheExerciseAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5542180A2194EAE100285BCF /* BreatheExerciseAssembly.swift */; };
+		5542180D2194F01C00285BCF /* UIView+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5542180C2194F01C00285BCF /* UIView+Factory.swift */; };
 		5569676E2191698C00411AAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5569676D2191698C00411AAD /* AppDelegate.swift */; };
-		556967702191698C00411AAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5569676F2191698C00411AAD /* ViewController.swift */; };
-		556967732191698C00411AAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556967712191698C00411AAD /* Main.storyboard */; };
 		556967752191698E00411AAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556967742191698E00411AAD /* Assets.xcassets */; };
 		556967782191698E00411AAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556967762191698E00411AAD /* LaunchScreen.storyboard */; };
+		5569678521916AD400411AAD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5569678721916AD400411AAD /* Localizable.strings */; };
+		5569678921916C3B00411AAD /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5569678821916C3B00411AAD /* Localization.swift */; };
+		5569678F21916E6600411AAD /* BreathePhasesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5569678E21916E6600411AAD /* BreathePhasesService.swift */; };
+		556967922191727500411AAD /* BreathePhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556967912191727500411AAD /* BreathePhase.swift */; };
+		556967942191731800411AAD /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556967932191731800411AAD /* UIColor+Extensions.swift */; };
+		558A29A02194F8B30059BF8E /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A299F2194F8B30059BF8E /* Layout.swift */; };
+		558A29A32194FD240059BF8E /* TimerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A29A22194FD240059BF8E /* TimerLabel.swift */; };
+		558A29A5219514550059BF8E /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A29A4219514550059BF8E /* SquareView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		554217E121924DEE00285BCF /* AsyncTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncTask.swift; sourceTree = "<group>"; };
+		554217E521924E3300285BCF /* Cancellable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cancellable.swift; sourceTree = "<group>"; };
+		554217E721924E5C00285BCF /* SafeBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeBox.swift; sourceTree = "<group>"; };
+		554217E921924EB600285BCF /* NSLocking+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLocking+Extensions.swift"; sourceTree = "<group>"; };
+		554217EB21924F8D00285BCF /* Codable+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Codable+Extensions.swift"; sourceTree = "<group>"; };
+		554217ED2192541800285BCF /* BundleBreathePhasesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleBreathePhasesService.swift; sourceTree = "<group>"; };
+		554217F02192551A00285BCF /* breathe_phases.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = breathe_phases.json; sourceTree = "<group>"; };
+		554218032194D5FD00285BCF /* BreatheExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheExerciseViewController.swift; sourceTree = "<group>"; };
+		554218062194D8CB00285BCF /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		554218082194DC1E00285BCF /* BreatheExercisePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheExercisePresenter.swift; sourceTree = "<group>"; };
+		5542180A2194EAE100285BCF /* BreatheExerciseAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheExerciseAssembly.swift; sourceTree = "<group>"; };
+		5542180C2194F01C00285BCF /* UIView+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Factory.swift"; sourceTree = "<group>"; };
 		5569676A2191698C00411AAD /* BreatheTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreatheTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5569676D2191698C00411AAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5569676F2191698C00411AAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		556967722191698C00411AAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		556967742191698E00411AAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		556967772191698E00411AAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		556967792191698E00411AAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5569678621916AD400411AAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5569678821916C3B00411AAD /* Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		5569678E21916E6600411AAD /* BreathePhasesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathePhasesService.swift; sourceTree = "<group>"; };
+		556967912191727500411AAD /* BreathePhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathePhase.swift; sourceTree = "<group>"; };
+		556967932191731800411AAD /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		558A299F2194F8B30059BF8E /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+		558A29A22194FD240059BF8E /* TimerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerLabel.swift; sourceTree = "<group>"; };
+		558A29A4219514550059BF8E /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +71,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		554217E021924DBC00285BCF /* AsyncTask */ = {
+			isa = PBXGroup;
+			children = (
+				554217E121924DEE00285BCF /* AsyncTask.swift */,
+				554217E521924E3300285BCF /* Cancellable.swift */,
+				554217E721924E5C00285BCF /* SafeBox.swift */,
+			);
+			path = AsyncTask;
+			sourceTree = "<group>";
+		};
+		554217EF219254D700285BCF /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				554217F02192551A00285BCF /* breathe_phases.json */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		554218012194D45500285BCF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				556967932191731800411AAD /* UIColor+Extensions.swift */,
+				5542180C2194F01C00285BCF /* UIView+Factory.swift */,
+				558A299F2194F8B30059BF8E /* Layout.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		554218022194D4AA00285BCF /* BreatheExercise */ = {
+			isa = PBXGroup;
+			children = (
+				554218032194D5FD00285BCF /* BreatheExerciseViewController.swift */,
+				554218082194DC1E00285BCF /* BreatheExercisePresenter.swift */,
+				5542180A2194EAE100285BCF /* BreatheExerciseAssembly.swift */,
+			);
+			path = BreatheExercise;
+			sourceTree = "<group>";
+		};
+		554218052194D8BD00285BCF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				554218062194D8CB00285BCF /* Presenter.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		556967612191698C00411AAD = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +136,90 @@
 		5569676C2191698C00411AAD /* BreatheTest */ = {
 			isa = PBXGroup;
 			children = (
+				5569678021916A9400411AAD /* Generated */,
+				5569678C21916DB400411AAD /* Screens */,
+				5569678B21916DA500411AAD /* Services */,
+				556967902191724F00411AAD /* Utils */,
+				558A29A12194FCC00059BF8E /* Views */,
 				5569676D2191698C00411AAD /* AppDelegate.swift */,
-				5569676F2191698C00411AAD /* ViewController.swift */,
-				556967712191698C00411AAD /* Main.storyboard */,
 				556967742191698E00411AAD /* Assets.xcassets */,
 				556967762191698E00411AAD /* LaunchScreen.storyboard */,
 				556967792191698E00411AAD /* Info.plist */,
+				5569678121916AA500411AAD /* Resources */,
 			);
 			path = BreatheTest;
+			sourceTree = "<group>";
+		};
+		5569678021916A9400411AAD /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				5569678821916C3B00411AAD /* Localization.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		5569678121916AA500411AAD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				554217EF219254D700285BCF /* Mocks */,
+				5569678221916AB000411AAD /* Strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5569678221916AB000411AAD /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				5569678721916AD400411AAD /* Localizable.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		5569678B21916DA500411AAD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5569678D21916E2300411AAD /* BreathePhasesService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5569678C21916DB400411AAD /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				554218052194D8BD00285BCF /* Common */,
+				554218022194D4AA00285BCF /* BreatheExercise */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		5569678D21916E2300411AAD /* BreathePhasesService */ = {
+			isa = PBXGroup;
+			children = (
+				5569678E21916E6600411AAD /* BreathePhasesService.swift */,
+				554217ED2192541800285BCF /* BundleBreathePhasesService.swift */,
+				556967912191727500411AAD /* BreathePhase.swift */,
+			);
+			path = BreathePhasesService;
+			sourceTree = "<group>";
+		};
+		556967902191724F00411AAD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				554217E021924DBC00285BCF /* AsyncTask */,
+				554218012194D45500285BCF /* UI */,
+				554217E921924EB600285BCF /* NSLocking+Extensions.swift */,
+				554217EB21924F8D00285BCF /* Codable+Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		558A29A12194FCC00059BF8E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				558A29A22194FD240059BF8E /* TimerLabel.swift */,
+				558A29A4219514550059BF8E /* SquareView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				556967782191698E00411AAD /* LaunchScreen.storyboard in Resources */,
+				5569678521916AD400411AAD /* Localizable.strings in Resources */,
+				554217F12192551B00285BCF /* breathe_phases.json in Resources */,
 				556967752191698E00411AAD /* Assets.xcassets in Resources */,
-				556967732191698C00411AAD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,28 +294,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				556967702191698C00411AAD /* ViewController.swift in Sources */,
+				556967942191731800411AAD /* UIColor+Extensions.swift in Sources */,
+				558A29A32194FD240059BF8E /* TimerLabel.swift in Sources */,
+				554217E621924E3300285BCF /* Cancellable.swift in Sources */,
+				5569678F21916E6600411AAD /* BreathePhasesService.swift in Sources */,
+				5542180D2194F01C00285BCF /* UIView+Factory.swift in Sources */,
+				558A29A5219514550059BF8E /* SquareView.swift in Sources */,
+				558A29A02194F8B30059BF8E /* Layout.swift in Sources */,
+				554217EA21924EB600285BCF /* NSLocking+Extensions.swift in Sources */,
 				5569676E2191698C00411AAD /* AppDelegate.swift in Sources */,
+				554217EE2192541800285BCF /* BundleBreathePhasesService.swift in Sources */,
+				556967922191727500411AAD /* BreathePhase.swift in Sources */,
+				554218072194D8CB00285BCF /* Presenter.swift in Sources */,
+				554217E821924E5C00285BCF /* SafeBox.swift in Sources */,
+				554217E221924DEE00285BCF /* AsyncTask.swift in Sources */,
+				5542180B2194EAE100285BCF /* BreatheExerciseAssembly.swift in Sources */,
+				554218042194D5FD00285BCF /* BreatheExerciseViewController.swift in Sources */,
+				5569678921916C3B00411AAD /* Localization.swift in Sources */,
+				554218092194DC1E00285BCF /* BreatheExercisePresenter.swift in Sources */,
+				554217EC21924F8D00285BCF /* Codable+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		556967712191698C00411AAD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				556967722191698C00411AAD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		556967762191698E00411AAD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				556967772191698E00411AAD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5569678721916AD400411AAD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5569678621916AD400411AAD /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -292,7 +468,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = abdev.BreatheTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +486,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = abdev.BreatheTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

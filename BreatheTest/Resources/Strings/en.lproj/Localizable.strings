@@ -1,0 +1,6 @@
+"breathe_exercise.label.remaining_time" = "Remaining";
+"breathe_exercise.button.start" = "TAP HERE TO BREATHE";
+
+"breathe_phase.kind.inhale" = "INHALE";
+"breathe_phase.kind.exhale" = "EXHALE";
+"breathe_phase.kind.hold" = "HOLD";
