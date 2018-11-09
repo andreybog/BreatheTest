@@ -38,7 +38,9 @@ class BreatheExercisePresenter: Presenter {
                 print("Error: ", #file, #function, "\n\(error.localizedDescription)")
             }
             .addCompletion { _ in
-                weak?.performNextPhaseOrReset()
+                DispatchQueue.main.async {
+                    weak?.performNextPhaseOrReset()
+                }
             }
     }
     

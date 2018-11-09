@@ -29,6 +29,7 @@
 		556967942191731800411AAD /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556967932191731800411AAD /* UIColor+Extensions.swift */; };
 		558A29A02194F8B30059BF8E /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A299F2194F8B30059BF8E /* Layout.swift */; };
 		558A29A32194FD240059BF8E /* TimerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A29A22194FD240059BF8E /* TimerLabel.swift */; };
+		558A29A5219514550059BF8E /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A29A4219514550059BF8E /* SquareView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		556967932191731800411AAD /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		558A299F2194F8B30059BF8E /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
 		558A29A22194FD240059BF8E /* TimerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerLabel.swift; sourceTree = "<group>"; };
+		558A29A4219514550059BF8E /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,8 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				5569678021916A9400411AAD /* Generated */,
-				5569678B21916DA500411AAD /* Services */,
 				5569678C21916DB400411AAD /* Screens */,
+				5569678B21916DA500411AAD /* Services */,
 				556967902191724F00411AAD /* Utils */,
 				558A29A12194FCC00059BF8E /* Views */,
 				5569676D2191698C00411AAD /* AppDelegate.swift */,
@@ -215,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				558A29A22194FD240059BF8E /* TimerLabel.swift */,
+				558A29A4219514550059BF8E /* SquareView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				554217E621924E3300285BCF /* Cancellable.swift in Sources */,
 				5569678F21916E6600411AAD /* BreathePhasesService.swift in Sources */,
 				5542180D2194F01C00285BCF /* UIView+Factory.swift in Sources */,
+				558A29A5219514550059BF8E /* SquareView.swift in Sources */,
 				558A29A02194F8B30059BF8E /* Layout.swift in Sources */,
 				554217EA21924EB600285BCF /* NSLocking+Extensions.swift in Sources */,
 				5569676E2191698C00411AAD /* AppDelegate.swift in Sources */,

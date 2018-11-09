@@ -45,15 +45,6 @@ public let embedConstraints: (UIView, UIView) -> [NSLayoutConstraint] = { view, 
     return _embedConstraints.map { $0(view, parent) }
 }
 
-public func constrainSize(_ size: CGSize) -> (UIView) -> [NSLayoutConstraint] {
-    return { view in
-        [
-            view.heightAnchor.constraint(equalToConstant: size.height),
-            view.widthAnchor.constraint(equalToConstant: size.width)
-        ]
-    }
-}
-
 
 public extension Array where Element == Constraint {
     func apply(_ view: UIView, _ parent: UIView) -> [NSLayoutConstraint] {
